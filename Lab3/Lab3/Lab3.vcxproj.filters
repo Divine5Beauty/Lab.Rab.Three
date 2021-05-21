@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\implementation">
+      <UniqueIdentifier>{b08ac7c1-9718-435e-b664-16d5d27ff225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\automatic_files">
+      <UniqueIdentifier>{42627a8d-106f-43aa-84dd-57b8b471edb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\initialization">
+      <UniqueIdentifier>{c0380dbc-b5c4-41ae-bcc6-3caa6459a77a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\images">
+      <UniqueIdentifier>{4671bfcd-3d6f-45ff-a46c-374a697876cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\images\electro">
+      <UniqueIdentifier>{87ab00d9-923e-43df-bf75-c44a6ca7ebf7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyForm.h">
+      <Filter>Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="prototypes.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Resourse.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>Исходные файлы\automatic_files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Исходные файлы\automatic_files</Filter>
+    </ClCompile>
+    <ClCompile Include="InitializeComponent.cpp">
+      <Filter>Исходные файлы\initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics.cpp">
+      <Filter>Исходные файлы\initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="create_companent.cpp">
+      <Filter>Исходные файлы\initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="created_buttons.cpp">
+      <Filter>Исходные файлы\initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="button_plot_Click.cpp">
+      <Filter>Исходные файлы\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="button1_Click_logic.cpp">
+      <Filter>Исходные файлы\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="button5_Click_reset.cpp">
+      <Filter>Исходные файлы\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="button2_Click_to_close.cpp">
+      <Filter>Исходные файлы\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="animation_Tick.cpp">
+      <Filter>Исходные файлы\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="init_pictures_animation.cpp">
+      <Filter>Исходные файлы\initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="loadingImages.cpp">
+      <Filter>Исходные файлы\implementation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\images\electro\7.jpg">
+      <Filter>Исходные файлы\images\electro</Filter>
+    </Image>
+    <Image Include="..\images\electro\8.jpg">
+      <Filter>Исходные файлы\images\electro</Filter>
+    </Image>
+    <Image Include="..\images\electro\9.jpg">
+      <Filter>Исходные файлы\images\electro</Filter>
+    </Image>
+    <Image Include="..\images\electro\10.jpg">
+      <Filter>Исходные файлы\images\electro</Filter>
+    </Image>
+    <Image Include="..\images\electro\11.jpg">
+      <Filter>Исходные файлы\images\electro</Filter>
+    </Image>
+    <Image Include="..\images\electro\12.jpg">
+      <Filter>Исходные файлы\images\electro</Filter>
+    </Image>
+    <Image Include="..\images\electro\13.jpg">
+      <Filter>Исходные файлы\images\electro</Filter>
+    </Image>
+    <Image Include="..\images\electro\14.jpg">
+      <Filter>Исходные файлы\images\electro</Filter>
+    </Image>
+    <Image Include="..\images\electro\15.jpg">
+      <Filter>Исходные файлы\images\electro</Filter>
+    </Image>
+    <Image Include="..\images\electro\16.jpg">
+      <Filter>Исходные файлы\images\electro</Filter>
+    </Image>
+    <Image Include="..\images\electro\17.jpg">
+      <Filter>Исходные файлы\images\electro</Filter>
+    </Image>
+    <Image Include="..\images\electro\18.jpg">
+      <Filter>Исходные файлы\images\electro</Filter>
+    </Image>
+    <Image Include="..\images\electro\19.jpg">
+      <Filter>Исходные файлы\images\electro</Filter>
+    </Image>
+    <Image Include="..\images\electro\20.jpg">
+      <Filter>Исходные файлы\images\electro</Filter>
+    </Image>
+    <Image Include="..\images\electro\21.jpg">
+      <Filter>Исходные файлы\images\electro</Filter>
+    </Image>
+    <Image Include="..\images\electro\22.jpg">
+      <Filter>Исходные файлы\images\electro</Filter>
+    </Image>
+    <Image Include="..\images\electro\23.jpg">
+      <Filter>Исходные файлы\images\electro</Filter>
+    </Image>
+    <Image Include="..\images\electro\24.jpg">
+      <Filter>Исходные файлы\images\electro</Filter>
+    </Image>
+    <Image Include="..\images\electro\0.jpg">
+      <Filter>Исходные файлы\images\electro</Filter>
+    </Image>
+    <Image Include="..\images\electro\1.jpg">
+      <Filter>Исходные файлы\images\electro</Filter>
+    </Image>
+    <Image Include="..\images\electro\2.jpg">
+      <Filter>Исходные файлы\images\electro</Filter>
+    </Image>
+    <Image Include="..\images\electro\3.jpg">
+      <Filter>Исходные файлы\images\electro</Filter>
+    </Image>
+    <Image Include="..\images\electro\4.jpg">
+      <Filter>Исходные файлы\images\electro</Filter>
+    </Image>
+    <Image Include="..\images\electro\5.jpg">
+      <Filter>Исходные файлы\images\electro</Filter>
+    </Image>
+    <Image Include="..\images\electro\6.jpg">
+      <Filter>Исходные файлы\images\electro</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
